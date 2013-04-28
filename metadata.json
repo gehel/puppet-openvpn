@@ -14,7 +14,7 @@
     "manifests/init.pp": "1d58b8e779340b802e8ef7b736174cac",
     "manifests/server.pp": "37842914999600f4c3035f82d3324b81",
     "manifests/server/clientcert.pp": "eb9779f03934e6b0e74da746facd0960",
-    "manifests/server/easyrsa.pp": "77c8e7b31f8b0a6d865a898c0ddd73f9",
+    "manifests/server/easyrsa.pp": "40c7db76a0c4eecabdc08ce214ccacf5",
     "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
     "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
     "templates/build-ca.erb": "716af30b2d173d8fe4206d032716b913",

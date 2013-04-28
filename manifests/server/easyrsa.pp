@@ -61,6 +61,7 @@ class openvpn::server::easyrsa ($country, $province, $city, $org, $email, $cn, $
 
   exec { 'openvpn-clean-all':
     command => ". ${easy_rsa_dir}/vars && ${easy_rsa_dir}/clean-all",
+    provider => shell,
     cwd     => "${easy_rsa_dir}",
     path    => '/bin:/usr/bin',
     creates => "${easy_rsa_dir}/keys/index.txt",
@@ -70,6 +71,7 @@ class openvpn::server::easyrsa ($country, $province, $city, $org, $email, $cn, $
 
   exec { 'openvpn-build-ca':
     command => ". ${easy_rsa_dir}/vars && ${easy_rsa_dir}/build-ca",
+    provider => shell,
     cwd     => "${easy_rsa_dir}",
     path    => '/bin:/usr/bin',
     creates => "${easy_rsa_dir}/keys/ca.crt",
@@ -78,6 +80,7 @@ class openvpn::server::easyrsa ($country, $province, $city, $org, $email, $cn, $
 
   exec { 'openvpn-build-key-server':
     command => ". ${easy_rsa_dir}/vars && ${easy_rsa_dir}/build-key-server ${server_name}",
+    provider => shell,
     cwd     => "${easy_rsa_dir}",
     path    => '/bin:/usr/bin',
     creates => "${easy_rsa_dir}/keys/${server_name}.crt",
