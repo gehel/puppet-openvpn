@@ -1,0 +1,28 @@
+{
+  "name": "gehel-openvpn",
+  "author": "gehel",
+  "description": "",
+  "license": "",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "version": "",
+  "checksums": {
+    "Modulefile": "ea5839975b5468dfa7797cab7ea830de",
+    "README.markdown": "b21137270f557d36155639abeacd6088",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests/init.pp": "1d58b8e779340b802e8ef7b736174cac",
+    "manifests/server.pp": "37842914999600f4c3035f82d3324b81",
+    "manifests/server/clientcert.pp": "eb9779f03934e6b0e74da746facd0960",
+    "manifests/server/easyrsa.pp": "77c8e7b31f8b0a6d865a898c0ddd73f9",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "templates/build-ca.erb": "716af30b2d173d8fe4206d032716b913",
+    "templates/build-key-server.erb": "39e6baead3418e291eca945a5c01fda9",
+    "templates/build-key.erb": "fc67363b6e5cad3c64b60e295e195bad",
+    "templates/server.conf.erb": "52288708f80264f4e0ba3ddc91f0f1f7",
+    "templates/vars.erb": "776b20e96c9f19de3cf2ba2f2a3c5626",
+    "tests/init.pp": "0e03818c707fdc0dc7410052c099bb29"
+  },
+  "dependencies": []
+}
